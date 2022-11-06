@@ -1,7 +1,7 @@
 import numpy as np
 import math
 
-n = int(input('Enter: '))
+n = int(input('Enter number of points: '))
 
 A = np.random.uniform(low=-1, high=1, size=(n,2))
 count = 0
